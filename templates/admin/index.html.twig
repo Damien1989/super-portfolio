@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Admin{% endblock %}
+
+{% block body %}
+
+<div class="mt-5 p-5">
+    <h1 class="text-white text-center fw-light mt-5">Accès admin</h1>
+    <form class="d-flex justify-content-center flex-column mt-2 col-lg-3 mx-auto" action="" method="post">
+        <input type="email" class="p-3 rounded-3 mb-3 border shadow-none mt-5" id="username" name="_username" placeholder="Email" autofocus />
+        <input type="password" class="p-3 rounded-3 border shadow-none mt-3" id="password" name="_password" placeholder="Mot de passe"/>
+        <button class="btn rounded-pill border-0 p-2 m-3 col-md-6 col-lg-5 mx-auto color-h3 bg-dark text-white mt-5">
+            Je me connecte
+        </button>
+    </form>
+</div>
+
+{% endblock %}

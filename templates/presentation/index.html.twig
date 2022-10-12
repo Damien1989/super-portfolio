@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Presentation{% endblock %}
+
+{% block body %}
+    <div class="container text-center mt-5 pt-5">
+        <div>
+            <h1 class="text-white text-center mt-3 pt-5 display-2">Qui suis-je ?</h1>
+            <div class="video mt-5">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ccVRq7SkYY8" title="YouTube video player"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                    gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class=" text-white p-5 mt-5 d-flex">
+                    <a class="btn color-h3 bg-white offset-5" href=" {{ asset('build/images/cv.pdf') }}" download="cv.pdf">Télécharger le cv</a>
+                </div>
+            </div>
+        </div>
+{% endblock %}
