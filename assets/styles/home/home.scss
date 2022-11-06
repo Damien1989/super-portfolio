@@ -3,6 +3,14 @@ body {
   background-color: $primary;
 }
 
+.zoom{
+  transition: transform .4s;
+}
+
+.zoom:hover {
+  transform: scale(1.08);
+}
+
 li {
   list-style: none;
 }
@@ -10,4 +18,18 @@ li {
 a
 {
   text-decoration: none;
+}
+
+
+.button {
+  background-color: #1c87c9;
+  border: none;
+  color: white;
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
