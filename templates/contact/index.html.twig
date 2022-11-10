@@ -4,6 +4,7 @@
 
 {% block body %}
     <h2 class="text-white text-center mt-5">Me contacter</h2>
+
     {% for message in app.flashes('notice') %}
         <div class="alert alert-info w-100 text-center mt-5 ">{{ message }}</div>
     {% endfor %}
