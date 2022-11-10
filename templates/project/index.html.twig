@@ -6,44 +6,59 @@
 
     <div class="container text-center" id="portfolio">
         <h2 class="m-5 text-warning">Mon Portfolio </h2>
-        <div class="card-group">
-            <div class="card border-success mb-3">
-                <div class="card-header bg-transparent border-success">Super Mario JavaScript</div>
-                <div class="card-body text-success p-0">
-                    <img src="{{ asset('uploads/supermario.png') }}" class="d-block w-100">
-                </div>
-                <div class="card-footer bg-transparent border-success">
-                    <a href="https://damien1989.github.io/Mario-last-version/" class="button">En savoir plus</a>
-                </div>
-            </div>
-            <div class="card border-success mb-3">
-                <div class="card-header bg-transparent border-success">E commerce</div>
-                <div class="card-body text-success p-0">
-                    <img src="{{ asset('uploads/E-Commerce-PNG-HD-Quality.png') }}" class="d-block w-100">
-                </div>
-                <div class="card-footer bg-transparent border-success">
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cours11">En savoir plus</button>
-                </div>
-            </div>
-            <div class="card border-success mb-3">
-                <div class="card-header bg-transparent border-success">Fullbus</div>
-                <div class="card-body text-success p-0">
-                    <img src="{{ asset('uploads/who1.png') }}" class="d-block w-100">
-                </div>
-                <div class="card-footer bg-transparent border-success">
-                    <a href="https://fullbus.harari.ovh/" class="button">En savoir plus</a>
-                </div>
-            </div>
-            <div class="card border-success mb-3">
-                <div class="card-header bg-transparent border-success">Dark Mode Javascript</div>
-                <div class="card-body text-success p-0">
-                    <img src="{{ asset('uploads/darkmode.png') }}" class="d-block w-100">
-                </div>
-                <div class="card-footer bg-transparent border-success">
-                    <a href="https://damien1989.github.io/darkmode-javascript/" class="button">En savoir plus</a>
-                </div>
-            </div>
 
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="{{ asset('uploads/supermario.png') }}" class="d-block w-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Projet Javascript</h5>
+                            <p class="card-text">Venez (re)découvrir Mario en version Nes !</p>
+                            <a href="https://damien1989.github.io/Mario-last-version/" class="button">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="{{ asset('uploads/E-Commerce-PNG-HD-Quality.png') }}" class="d-block w-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Magasin en ligne</h5>
+                            <p class="card-text">Connectez-vous et achetez </p>
+                            <a href="https://damien1989.github.io/Mario-last-version/" class="button">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="{{ asset('uploads/who1.png') }}" class="d-block w-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Fullbus</h5>
+                            <p class="card-text">Réservez votre prochain voyage en France </p>
+                            <a href="https://fullbus.harari.ovh/" class="button">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="{{ asset('uploads/darkmode.png') }}" class="d-block w-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Eclairage site</h5>
+                            <p class="card-text">Changez le mode d'éclairage de votre site.</p>
+                            <a href="https://damien1989.github.io/darkmode-javascript/" class="button">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="{{ asset('uploads/series.jpg') }}" class="d-block w-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Wild Series</h5>
+                            <p class="card-text">Consultez site sous Symfony</p>
+                            <a href="https://damien1989.github.io/darkmode-javascript/" class="button">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     </body>
