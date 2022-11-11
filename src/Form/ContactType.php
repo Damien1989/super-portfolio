@@ -18,35 +18,35 @@ class ContactType extends AbstractType
             ->add('prenom', TextType::class, [
                 'label'=> 'Votre prénom',
                 'attr' => [
-                    'class' => 'p-3 rounded-3 mb-3 shadow-none text-center',
+                    'class' => 'p-3 mb-3 shadow-none text-center',
                     'placeholder' => 'Merci de saisir votre prénom'
                 ]
             ])
             ->add('nom', TextType::class, [
                 'label'=> 'Votre nom',
                 'attr' => [
-                    'class' => 'p-3 rounded-3 mb-3 shadow-none text-center',
+                    'class' => 'p-3 mb-3 shadow-none text-center',
                     'placeholder' => 'Merci de saisir votre nom'
                 ]
             ])
             ->add('email', EmailType::class, [
                 'label'=> 'Email',
                 'attr' => [
-                    'class' => 'p-3 rounded-3 mb-3 shadow-none text-center',
+                    'class' => 'p-3 mb-3 shadow-none text-center',
                     'placeholder' => 'Merci de saisir votre adresse email'
                 ]
             ])
             ->add('content', TextareaType::class, [
                 'label'=> 'Message',
                 'attr' => [
-                    'class' => 'p-3 rounded-3 mb-3 shadow-none text-center',
+                    'class' => 'p-3 mb-3 shadow-none text-center',
                     'placeholder' => 'En quoi pouvons-nous vous aider ?'
                 ]
             ])
             ->add('submit', SubmitType::class, [
                 'label'=> 'Envoyer',
                 'attr' => [
-                    'class' => 'btn-block btn-success '
+                    'class' => 'btn-block btn-success'
                 ]
             ])
         ;
