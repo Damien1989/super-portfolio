@@ -19,21 +19,21 @@ class ContactType extends AbstractType
                 'label'=> 'Votre prénom',
                 'attr' => [
                     'class' => 'p-3 mb-3 shadow-none text-center',
-                    'placeholder' => 'Merci de saisir votre prénom'
+                    'placeholder' => 'Merci de saisir votre prénom...'
                 ]
             ])
             ->add('nom', TextType::class, [
                 'label'=> 'Votre nom',
                 'attr' => [
                     'class' => 'p-3 mb-3 shadow-none text-center',
-                    'placeholder' => 'Merci de saisir votre nom'
+                    'placeholder' => 'Merci de saisir votre nom...'
                 ]
             ])
             ->add('email', EmailType::class, [
                 'label'=> 'Email',
                 'attr' => [
                     'class' => 'p-3 mb-3 shadow-none text-center',
-                    'placeholder' => 'Merci de saisir votre adresse email'
+                    'placeholder' => 'Merci de saisir votre adresse email...'
                 ]
             ])
             ->add('content', TextareaType::class, [
